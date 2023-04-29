@@ -1,0 +1,98 @@
+.MainNav
+{
+    display: grid;
+}
+.TopNav
+{
+    padding: 1em;
+    background-color: #F9ED77;
+    display: flex;
+    justify-content: space-between;
+}
+.List-TopNav
+{
+    display: flex;
+    list-style-type: none;
+    justify-content: flex-end;
+}
+.itemtopnav
+{
+    margin-right: 1em;
+    display: flex;
+    font-family: 'Rakkas';
+    direction: rtl;
+    font-size: 15px;
+    cursor: pointer;
+}
+.Timezone
+{
+    margin-left: 5px;
+    margin-right: 5px;
+    color: royalblue;
+    font-size: 10px;
+    display: flex;
+    align-items: end;
+    font-weight: 900;
+}
+.motto
+{
+    font-family: 'Rakkas';
+    direction: rtl;
+}
+.DownNav
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.List-DownNav
+{
+    display: flex;
+    list-style-type: none;
+    border: 1px black solid;
+    padding: 1em;
+    border-radius: 35px;
+    margin-top: 2em;
+
+}
+.itemdownnav
+{
+    margin-right: 1em;
+    display: flex;
+    color: black;
+    transition: 0.5s;
+    padding: 9px;
+    font-family: 'Marhey';   
+    cursor: pointer;
+ 
+}
+.itemdownnav::after
+{
+    display: block;
+    content: "";
+    border-right: 3px black solid;
+    padding: 1em;
+   
+}
+.itemdownnav:hover
+{
+    color: #F9ED77;
+    transition: 0.5s;
+}
+.SearchSec
+{
+    font-family: 'Dosis';
+
+}
+.logoapp
+{
+    width: 5em;
+}
+.New
+{
+    color: red;
+    position: relative;
+    top: -1em;
+    font-size: 12px;    
+}

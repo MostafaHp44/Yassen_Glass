@@ -1,0 +1,60 @@
+.MainIntro
+{
+    display: flex;
+    justify-content: center;
+    margin: 5em;
+    padding: 2em;
+    background-color: #F9ED77;
+}
+.MainText-Intro
+{
+    display: grid;
+}
+.Text-Intro
+{
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Marhey';  
+    padding: 1em; 
+    background:
+    linear-gradient(
+      to right,
+      rgb(229, 224, 224),
+      rgba(100, 200, 200, 1)
+    ),
+    linear-gradient(
+      to right,
+      rgba(255, 0, 0, 1),
+      rgba(255, 0, 180, 1),
+      rgba(0, 100, 200, 1)
+  );
+  background-size: 100% 3px, 0 3px;
+  background-position: 100% 100%, 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 400ms; 
+  position: relative;
+  left: 7em;
+  width: 20em;
+}
+.Text-Intro:hover
+{
+    background-size: 0 3px, 100% 3px;
+
+}
+
+.Text-1,
+.Text-2
+{
+    font-family: 'Amiri Quran';
+    display: flex;
+    font-size: 2em;
+    direction: rtl;
+    margin-top: 2em;
+}
+.Author
+{
+    font-size: 13px;
+    position: relative;
+    bottom: -3em;
+    left: -1em;
+}

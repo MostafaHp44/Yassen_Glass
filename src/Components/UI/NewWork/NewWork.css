@@ -1,0 +1,36 @@
+.MainNewWork
+{
+    margin: 3em;
+    padding: 3em;
+    display: grid;
+}
+.sn
+{
+    text-align: end;
+}
+.spacfic
+{
+    font-family: 'Marhey';   
+}
+
+.BigCard
+{
+    border: 1px #F9ED77 solid;
+    border-radius: 35px;
+    display: flex;
+}
+.new1
+{
+    padding: 1em;
+    
+}
+.TextOfNew
+{
+    font-family: 'Marhey';   
+
+}
+.imgsize
+{
+    width: 22em;
+    border-radius: 30px;
+}

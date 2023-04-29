@@ -1,0 +1,37 @@
+.MainContactUs
+{
+    margin: 3em;
+    padding: 3em;
+    display: grid;
+}
+.Contactus
+{
+    display: flex;
+    justify-content: space-around;
+    background-color: #F9ED77;
+    padding: 2em;
+    align-items: center;
+    border-radius: 30px;
+}
+.Col-1
+{
+    display: flex;
+}
+.Mail
+{
+    direction: rtl;
+    border-right: 1px black solid;
+    padding: 1em;
+    font-family: 'Marhey';   
+}
+.MailGmail
+{
+    color: royalblue;
+    font-size: 22px;
+    font-weight: 900;
+}
+.Social
+{
+    font-family: 'Marhey';   
+
+}
