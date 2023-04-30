@@ -11,10 +11,13 @@
 
     .MainIntro,
     .MainContactUs,
-    .MainWork
+    .MainWork,
+    .MainAboutUs
     {
         width: 60em;
+        font-size: 22px;
     }
+   
     .MainFooter
     {
         width: 195%;
