@@ -1,6 +1,6 @@
 import React from "react";
 import './Footer.css'
-import { UilLocationPoint,UilPhone,UilFastMail,UilFacebook,UilMessage} from '@iconscout/react-unicons'
+import { UilLocationPoint,UilPhone,UilFastMail,UilFacebook,UilMessage,UilInstagram} from '@iconscout/react-unicons'
 import footerlogo from './logo.png'
 import { Link, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
 
@@ -18,7 +18,7 @@ const Footer = () => {
                   <UilLocationPoint size="50" color="#F9ED77"/>
                   <div className="cta-text">
                     <h4>Find us</h4>
-                    <span>1شارع سالم خيزه, El-Amal City, Giza Governorate</span>
+                    <span>احمد عرابي -المهندسين  </span>
                   </div>
                 </div>
               </div>
@@ -55,6 +55,7 @@ const Footer = () => {
                   <div className="footer-social-icon">
                     <span>Follow us</span>
                     <a href="https://www.facebook.com/yassenforglass"><UilFacebook/></a>
+                    <a href="https://www.instagram.com/yassenglass/"><UilInstagram/></a>
 
                   </div>
                 </div>
