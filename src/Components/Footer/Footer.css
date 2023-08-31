@@ -1,4 +1,7 @@
-
+.MainFooter
+{
+    display:grid;
+}
 ul 
 {
     margin: 0px;
