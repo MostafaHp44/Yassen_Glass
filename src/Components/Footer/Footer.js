@@ -52,7 +52,7 @@ const Footer = () => {
                   <div className="footer-text">
                     <p>اللي اتكسر يتصلح....❤️</p>
                   </div>
-                  <div className="footer-social-icon">
+                  <div className="footer-social-icon" style={{padding:"3em"}}>
                     <span>Follow us</span>
                     <a href="https://www.facebook.com/yassenforglass"><UilFacebook/></a>
                     <a href="https://www.instagram.com/yassenglass/"><UilInstagram/></a>
